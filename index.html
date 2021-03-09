@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Information</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="headerAsac"> ASAC</h1>
+        <nav class="nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form action="" id="infoForm">
+            <label for="studentEmail"> Student Email</label>
+            <input type="text" id="studentEmail">
+
+            <label for="mobileNumber">Mobile Number</label>
+            <input type="number" id="mobileNumber">
+
+            <label for="tuition">Tuition</label>
+            <select name="tuition" id="tuition">
+                <option value="500 JD">500 JD </option>
+                <option value="1000 JD">1000 JD </option>
+                <option value="1500 JD">1500 JD </option>
+            </select>
+
+            <input type="submit" id="submit">
+        </form>
+        <section id="displayContainer">
+            <table id="tableInfo">
+
+            </table>
+            <p id="total">
+
+            </p>
+        </section>
+
+
+    </main>
+    <script src="./js/app.js"></script>
+</body>
+</html>
